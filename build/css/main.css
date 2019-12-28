@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #f06b80;
+  color: white;
+  height: 100%;
+  line-height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3rem; }
+
+p {
+  margin: 0;
+  padding: .5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem; }
+
+.header-inner a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none; }
+
+li {
+  list-style-type: none; }
+
+.wrap-bg {
+  border: 2px solid red;
+  height: auto;
+  background: url(../img/one.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#wrap {
+  border: 2px solid blue;
+  height: 90vh;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0; }
+
+#header-container {
+  border: 2px solid orange;
+  height: 450px;
+  display: flex; }
+  #header-container .header-inner {
+    border: 2px solid brown;
+    background-color: #fea771;
+    display: flex;
+    width: 954px;
+    height: 100%; }
+    #header-container .header-inner #site-title {
+      border: 2px solid cyan;
+      flex-grow: 1;
+      background: url(../img/logo.jpg);
+      background-size: cover;
+      padding: 2rem; }
+      #header-container .header-inner #site-title a {
+        color: black; }
+    #header-container .header-inner .header-nav {
+      border: 2px solid lightgreen;
+      flex-grow: 2; }
+
+main {
+  border: 2px solid green;
+  height: 1033px; }
+
+footer {
+  border: 2px solid purple;
+  height: 228px; }
