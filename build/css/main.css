@@ -34,14 +34,13 @@ li {
 
 .wrap-bg {
   border: 2px solid red;
-  height: auto;
-  background: url(../img/one.png);
-  background-size: cover;
-  background-repeat: no-repeat; }
+  height: 2000px;
+  background: url(../img/brick.png);
+  background-size: cover; }
 
 #wrap {
   border: 2px solid blue;
-  height: 90vh;
+  height: auto;
   width: 960px;
   margin: 0 auto;
   padding: 0; }
@@ -70,6 +69,7 @@ li {
 
 main {
   border: 2px solid green;
+  background-color: #81d961;
   height: 1033px; }
 
 footer {
