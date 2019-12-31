@@ -3,18 +3,22 @@
 
 .wrap-bg {
   border: 2px solid red;
-  height: 2000px;
-  background: url(../img/brick.png);
+  height: 100%;
+  background: url(../img/background.png);
   background-size: cover;
   // background-repeat: no-repeat;
 }
 
 #wrap {
-  border: 2px solid blue;
+  border: 15px solid transparent;
+  // border: 5px solid blue;
+  border-image: url(../img/border.png) 15 stretch;
+  border-bottom: none;
+
   height: auto;
   width: 960px;
   margin: 0 auto;
-  padding: 0;
+  // padding: 10px; 
 }
 
 #header-container {
@@ -26,7 +30,7 @@
     border: 2px solid brown;
     background-color: $second-color;
     display: flex;
-    width: 954px;
+    width: 928px;
     height: 100%;
 
     #site-title {

@@ -34,16 +34,17 @@ li {
 
 .wrap-bg {
   border: 2px solid red;
-  height: 2000px;
-  background: url(../img/brick.png);
+  height: 100%;
+  background: url(../img/background.png);
   background-size: cover; }
 
 #wrap {
-  border: 2px solid blue;
+  border: 15px solid transparent;
+  border-image: url(../img/border.png) 15 stretch;
+  border-bottom: none;
   height: auto;
   width: 960px;
-  margin: 0 auto;
-  padding: 0; }
+  margin: 0 auto; }
 
 #header-container {
   border: 2px solid orange;
@@ -53,7 +54,7 @@ li {
     border: 2px solid brown;
     background-color: #fea771;
     display: flex;
-    width: 954px;
+    width: 928px;
     height: 100%; }
     #header-container .header-inner #site-title {
       border: 2px solid cyan;
