@@ -33,7 +33,6 @@ li {
   list-style-type: none; }
 
 .wrap-bg {
-  border: 2px solid red;
   height: 100%;
   background: url(../img/background.png);
   background-size: cover; }
@@ -47,11 +46,9 @@ li {
   margin: 0 auto; }
 
 #header-container {
-  border: 2px solid orange;
   height: 370px;
   display: flex; }
   #header-container .header-inner {
-    border: 2px solid brown;
     display: flex;
     width: 928px;
     height: 100%; }
@@ -106,8 +103,11 @@ li {
 main {
   border: 2px solid green;
   background-color: #81d961;
-  height: 1033px; }
+  height: 1033px;
+  border-image: url(../img/rib.png) 3 stretch; }
 
 footer {
-  border: 2px solid purple;
-  height: 228px; }
+  border: 2px solid black;
+  height: 228px;
+  background-color: brown;
+  text-align: center; }

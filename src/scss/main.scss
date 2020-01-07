@@ -2,7 +2,6 @@
 @import 'pages';
 
 .wrap-bg {
-  border: 2px solid red;
   height: 100%;
   background: url(../img/background.png);
   background-size: cover;
@@ -22,12 +21,12 @@
 }
 
 #header-container {
-  border: 2px solid orange;
+  // border: 2px solid orange;
   height: 370px;
   display: flex;
 
   .header-inner {
-    border: 2px solid brown;
+    // border: 2px solid brown;
     display: flex;
     width: 928px;
     height: 100%;
@@ -114,9 +113,13 @@ main {
   border: 2px solid green;
   background-color: $fourth-color;
   height: 1033px;
+  border-image: url(../img/rib.png) 3 stretch;
+  
 }
 
 footer {
-  border: 2px solid purple;
+  border: 2px solid black;
   height: 228px;
+  background-color: brown;
+  text-align: center;
 }
